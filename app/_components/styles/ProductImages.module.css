@@ -1,0 +1,14 @@
+.imageContainer {
+  position: relative; /* Ensure the container has relative positioning */
+  width: 200px;
+  height: 200px; /* Set the desired height */
+  overflow: hidden; /* Hide any overflow */
+}
+
+.image {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%; /* Cover ensures the image fills the container and maintains aspect ratio */
+}
+
+  
